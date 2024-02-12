@@ -1,0 +1,99 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.mainLayout {
+  display: flex;
+  width: 100%;
+  /* margin-left: -15px;
+  margin-right: -15px; */
+}
+
+img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.fisrtColumn {
+  margin-left: -15px;
+  background-color: #190367;
+}
+
+/* main */
+
+.card .card-body {
+  padding: 15px 15px 10px !important;
+}
+
+.card .card-header {
+  padding: 15px 15px 0;
+  border: 0;
+}
+
+.card .card-header .card-title {
+  margin-top: 10px;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card-category,
+.category {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: .9em;
+  opacity: .7;
+  color: var(--gray);
+}
+
+.card .card-footer .legend,
+.card .card-footer .stats {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.card .card-footer .legend {
+  font-size: .9em;
+  color: var(--black);
+  opacity: .8;
+}
+
+.card .card-footer .legend span {
+  display: block;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+}
+
+.card .card-footer .stats svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-right: 5px;
+}
+
+.card .card-footer .stats {
+  border-top: 1px solid var(--border);
+  font-size: 0.8em;
+  color: var(--black);
+  opacity: .7;
+}
+
+.card .card-footer .legend span.yellow {
+  background-color: var(--yellow);
+}
+
+.card .card-footer .legend span.blue {
+  background-color: var(--blue);
+}
+
+.card .card-footer .legend span.red {
+  background-color: var(--red);
+}
+
+.card .card-footer .legend span.gray {
+  background-color: var(--gray);
+}
+
+.card .card-footer {
+  border: 0;
+}

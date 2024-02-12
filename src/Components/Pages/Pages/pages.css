@@ -1,0 +1,299 @@
+.wrapper.wrapper-full-page {
+    min-height: 100vh;
+    height: auto;
+}
+
+.wrapper.wrapper-full-page .full-page {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px 0 120px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.full-page .full-page-background,
+.full-page:after {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.full-page:after {
+    content: "";
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.lock-page,
+.login-page,
+.register-page {
+    width: 100%;
+}
+
+.header {
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.form-check .form-check-label {
+    font-size: 0.8em;
+    color: var(--black);
+    opacity: .7;
+}
+
+.login-page .card-login {
+    border-radius: 6px;
+    padding-bottom: 0.7rem;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-group-text {
+    background-color: initial;
+    border: 1px solid #e3e3e3;
+    color: var(--gray);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    position: relative;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--gray);
+    line-height: normal;
+    font-size: 14px;
+    transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+    box-shadow: none;
+}
+
+.full-page .full-page-background {
+    background-size: cover;
+    background-position: 50%;
+}
+
+.btnLogin {
+    border-width: 1px;
+    border-radius: 30px;
+    padding: 11px 23px;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    background-color: var(--yellow);
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.btnLock {
+    background: 0 0;
+    border: 2px solid var(--border) !important;
+    color: var(--gray);
+    opacity: 1;
+    border-radius: 30px;
+    padding-right: 23px;
+    padding-left: 23px;
+    padding: 11px 22px;
+    cursor: pointer;
+}
+
+.authentication {
+    z-index: 2;
+    position: relative;
+    width: 80%;
+}
+
+/* Lock */
+.card-lock .card-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -70px;
+    max-width: 100%;
+}
+
+
+/* Profile page */
+
+.profileScreen .card .image {
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profileScreen .card-user .image img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.profileScreen .card-user .author {
+    text-align: center;
+    text-transform: none;
+    margin-top: -77px;
+}
+
+.profileScreen .card-user .avatar {
+    width: 124px;
+    height: 124px;
+    border: 1px solid #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profileScreen .card-user .author h5 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.profileScreen .card-user .author p,
+.profileScreen .card-user .description {
+    color: var(--gray);
+    opacity: .7;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.profileScreen .card-user .button-container {
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.profileScreen .card-user .button-container h5 {
+    font-size: 1.05em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.profileScreen .card-user .button-container small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.profileScreen .card .card-header .heading {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.profileScreen .card .card-body .form-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.profileScreen .card .card-body label {
+    font-size: .8em;
+    margin-bottom: 5px;
+    color: var(--gray);
+    opacity: .7;
+    font-weight: 400;
+}
+
+.profileScreen .card .card-body input:disabled {
+    background-color: var(--lightgray);
+    color: var(--gray);
+    cursor: not-allowed;
+}
+
+.profileScreen .card .card-body input,
+.profileScreen .card .card-body textarea {
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--gray);
+    line-height: normal;
+    padding: 10px;
+    font-size: 14px;
+    transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+    box-shadow: none;
+}
+
+.profileScreen .card .card-header .card-title {
+    margin-top: 10px;
+    margin-bottom: 0.75rem;
+    font-size: 1.3em;
+    line-height: 1.45em;
+    font-weight: 400;
+}
+
+.profileScreen .card .card-body ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.profileScreen .card .team-members .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.profileScreen .card .team-members .avatar img {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.profileScreen .card .team-members .subtext{
+    font-size: .9em;
+}
+.profileScreen .card .team-members .subtext small{
+    font-size: .8em;
+}
+.profileScreen .card .team-members .btnprofile {
+    padding: 0;
+    font-size: .9375rem;
+    overflow: hidden;
+    height: 1.875rem;
+    min-width: 1.875rem;
+    width: 1.875rem;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: 2px solid var(--green) !important;
+    color: var(--green);
+    background: 0 0;
+}
+.profileScreen .card .team-members svg{
+   display: flex;
+   justify-content: center;
+   width: .6em;
+   height: .6em;
+   margin: auto;
+}
+
+
+/* End */

@@ -1,0 +1,183 @@
+.center{
+  font-size: 20px;
+}
+.topsider {
+  flex: 1 0 auto;
+  z-index: 1200;
+  position: sticky;
+  top: 20px;
+  /* overflow-y: auto; */
+  height: 100vh;
+}
+
+.mainSidebar {
+  padding: 0 1rem;
+}
+
+.mainSidebar .sidebarheader {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-transform: none;
+  font-weight: 500;
+  background-image: linear-gradient(97.89deg, rgb(255, 255, 255) 70.67%, rgba(117, 122, 140, 0) 108.55%);
+  display: inline-block;
+  background-clip: text;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  max-width: 100%;
+  text-decoration: none;
+  margin: 0px auto;
+}
+
+
+.mainSidebar .uistyle {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+  position: relative;
+  padding-top: 2px;
+}
+
+.mainSidebar .uistyle .listyle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.mainSidebar .uistyle .listyle.checked::before, .mainSidebar ul.submenu li.checked::after {
+  border-right: 17px solid var(--backgroundColor);
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -21px;
+  opacity: 1;
+  top: 7px;
+  transition: opacity .15s ease-in;
+}
+
+.mainSidebar .uistyle .listyle:focus {
+  background-color: var(--blue);
+}
+
+.mainSidebar .uistyle .listyle .lifirstDiv {
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  color: var(--white);
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.mainSidebar .uistyle .listyle .lifirstDiv .liIcon {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+.mainSidebar .uistyle .listyle .lifirstDiv svg {
+  height: 1.2em;
+  fill: rgb(175, 181, 184);
+  width: 2.2rem;
+}
+
+.mainSidebar .uistyle .listyle.checked .lifirstDiv svg {
+  fill: var(--blue);
+}
+
+
+.mainSidebar .uistyle .listyle .lifirstDiv .litext {
+  opacity: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0.8rem;
+  transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, margin 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.mainSidebar .uistyle .listyle .lifirstDiv .litext h6 {
+  font-weight: 600;
+  font-size: 0.775rem;
+  margin-bottom: 0;
+  color: var(--white);
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+.mainSidebar .uistyle .listyle.checked .lifirstDiv .litext h6 {
+  color: var(--blue);
+  opacity: 1;
+}
+
+.mainSidebar ul.submenu {
+  padding: 0;
+  list-style: none;
+}
+.mainSidebar ul.submenu li{
+
+  position: relative;
+}
+.mainSidebar ul.submenu li a {
+  color: var(--white);
+  display: block;
+  text-decoration: none;
+  position: relative;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 10px 8px;
+  line-height: 30px;
+  opacity: .7;
+}
+
+.mainSidebar ul.submenu li.checked a,
+.mainSidebar ul.submenu li.checked a .firstletter {
+  color: var(--blue);
+}
+
+.mainSidebar ul.submenu li a .firstletter {
+  text-transform: capitalize;
+  width: 34px;
+  margin-right: 10px;
+  margin-left: 0;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+  float: left;
+  z-index: 1;
+  display: inherit;
+  color: hsla(0, 0%, 100%, .5);
+}
+
+.mainSidebar ul.submenu li a .fullname {
+  margin: 0;
+  position: relative;
+  transform: translateX(0);
+  opacity: 1;
+  white-space: nowrap;
+  display: block;
+  line-height: 20px;
+  z-index: 1;
+}

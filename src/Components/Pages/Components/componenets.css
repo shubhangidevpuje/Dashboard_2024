@@ -1,0 +1,650 @@
+.buttonscomponents .maincomponents {
+    background-color: var(--white);
+}
+
+.buttonscomponents .maincomponents .picksize {
+    font-size: 25px;
+    color: var(--black);
+}
+
+.buttonscomponents .maincomponents .Default {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: var(--gray);
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .Default:hover {
+    background-color: var(--black);
+    opacity: .8;
+}
+
+.buttonscomponents .maincomponents .Primary {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .Primary:hover {
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .info {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+
+}
+
+.buttonscomponents .maincomponents .info:hover {
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .success {
+
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--green);
+}
+
+.buttonscomponents .maincomponents .success:hover {
+    background-color: var(--green);
+}
+
+.buttonscomponents .maincomponents .warning {
+
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--yellow);
+}
+
+.buttonscomponents .maincomponents .warning:hover {
+    background-color: var(--yellow);
+}
+
+.buttonscomponents .maincomponents .danger {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--red);
+}
+
+.buttonscomponents .maincomponents .danger:hover {
+    background-color: var(--red);
+}
+
+.buttonscomponents .maincomponents .small {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .small:hover {
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .regular {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .regular:hover {
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .large {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5px;
+    padding: 15px 55px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .large:hover {
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .card-header {
+    padding: 15px 15px 0;
+    border: 0;
+}
+
+.buttonscomponents .maincomponents .bgchange {
+    color: var(--white);
+    box-shadow: 0 2px 2px var(--border);
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-radius: 50%;
+}
+
+.buttonscomponents .maincomponents .page-link {
+    border-radius: 50%;
+}
+
+.buttonscomponents .maincomponents .hovervolor {
+    border-radius: 100%;
+
+}
+
+.buttonscomponents .maincomponents .round {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .roundradius {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 50%;
+    padding: 8px 8px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+}
+
+.buttonscomponents .maincomponents .radiusborder {
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    padding: 6px 15px;
+    border-radius: 40px;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.buttonscomponents .maincomponents .blank {
+    background-color: var(--white);
+    border: none;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.buttonscomponents .maincomponents .btn-outline-primary {
+    border: 2px solid var(--blue) !important;
+    color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .radius {
+    border-radius: 40px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+.buttonscomponents .maincomponents .connectwith {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+
+}
+
+.buttonscomponents .maincomponents .connectwithtwitter {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--blue);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+.buttonscomponents .maincomponents .infos {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 50%;
+    padding: 9px 9px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .infor {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .infoss {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--blue);
+
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.buttonscomponents .maincomponents .connectwiths {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--darkblue);
+
+}
+
+.buttonscomponents .maincomponents .connectwithtwitters {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--darkblue);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+.buttonscomponents .maincomponents .infoss {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 50%;
+    padding: 9px 9px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--darkblue);
+}
+
+.buttonscomponents .maincomponents .infors {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--darkblue);
+}
+
+.buttonscomponents .maincomponents .infosss {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--darkblue);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.buttonscomponents .maincomponents .connectwithsr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--darkred);
+
+}
+
+.buttonscomponents .maincomponents .connectwithtwittersr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--darkred);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+.buttonscomponents .maincomponents .infossr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 50%;
+    padding: 9px 9px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--darkred);
+}
+
+.buttonscomponents .maincomponents .inforsr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--darkred);
+}
+
+.buttonscomponents .maincomponents .infosssr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--darkred);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+
+.buttonscomponents .maincomponents .connectwithsrr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+
+}
+
+.buttonscomponents .maincomponents .connectwithtwittersrr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: var(--blue);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+.buttonscomponents .maincomponents .infossrr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 50%;
+    padding: 9px 9px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .inforsrr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all .15s linear;
+    background-color: var(--blue);
+}
+
+.buttonscomponents .maincomponents .infosssrr {
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: var(--blue);
+    transition: all .15s linear;
+    background-color: var(--white);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+/* Grid System */
+.mainGridsystem .card-body .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.5em;
+    color: var(--black);
+    opacity: .8;
+    line-height: 1.45em;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.mainGridsystem .card-body .card-title small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.mainGridsystem .card .card-body.paragraph h3 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: var(--black);
+    opacity: .8;
+    font-weight: 500;
+}
+
+.mainGridsystem .card .card-body.paragraph p {
+    font-size: .9em;
+}
+
+/* End */
+
+/* -------------------------------------------------------------------------------Typography------------------------------------------------------------ */
+
+
+.TypographySection .card .typography {
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.TypographySection .card .typography span {
+    color: var(--gray);
+    opacity: .6;
+    font-size: .83em;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.TypographySection .card .typography h1,
+.TypographySection .card .typography h2,
+.TypographySection .card .typography h3,
+.TypographySection .card .typography h4,
+.TypographySection .card .typography h5,
+.TypographySection .card .typography h6 {
+    font-weight: 400;
+    color: var(--black);
+    opacity: .9;
+}
+
+.TypographySection .card .typography p{
+    font-size: .83em;
+}
+
+.TypographySection .card .typography .box{
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: .9em;
+    line-height: 1.8;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}

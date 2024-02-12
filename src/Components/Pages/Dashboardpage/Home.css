@@ -1,0 +1,219 @@
+/* First */
+.card .card-body .cardtop,
+.card .card-body .cardbottom {
+    display: flex;
+    align-items: center;
+}
+
+.card .card-body .cardtop {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.card .card-body .cardtop .first .setbg{
+    background-color:aliceblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.card .card-body .cardtop .first svg {
+    /* line-height: 59px; */
+    font-size: 3em;
+}
+
+.card .card-body .cardtop .first.yellow svg {
+    fill: var(--yellow);
+    position: relative;
+    margin-top: 18%;
+    font-size: 60px;
+}
+
+.card .card-body .cardtop .first.green svg {
+    fill: var(--green);
+    position: relative;
+    margin-top: 18%;
+    font-size: 60px;
+}
+
+.card .card-body .cardtop .first.red svg {
+    fill: var(--red);
+    position: relative;
+    margin-top: 18%;
+    font-size: 60px;
+}
+
+.card .card-body .cardtop .first.blue svg {
+    fill: var(--blue);
+    position: relative;
+    margin-top: 18%;
+    font-size: 60px;
+}
+
+.card .card-body .cardtop .second h6 {
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: end;
+    opacity: .7;
+    line-height: 1.4em;
+}
+
+.card .card-body .cardtop .second h4 {
+    font-size: 1.8em;
+    text-align: end;
+    font-weight: 400;
+}
+
+.card .card-body .cardbottom {
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+}
+
+.card .card-body .cardbottom svg {
+    fill: var(--gray);
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 10px;
+}
+
+.card .card-body .cardbottom h6 {
+    color: var(--gray);
+    font-size: 0.9em;
+    opacity: .7;
+    margin: 0;
+}
+
+/* End first */
+
+/* Second */
+.MainSecond .card .card-header .numbers {
+    font-size: 2em;
+}
+
+.MainSecond .card .card-header .badge {
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font-size: .7142em;
+    opacity: 2;
+    border-radius: 10rem;
+    line-height: 12px;
+    border: 1px solid;
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.MainSecond .card .card-header .badge.green {
+    background-color: var(--green);
+}
+
+.MainSecond .card .card-header .badge.red {
+    background-color: var(--red);
+}
+
+.MainSecond .card .card-header .badge.yellow {
+    background-color: var(--yellow);
+}
+
+.MainSecond .card .card-body {
+    padding: 15px 0;
+}
+
+.MainSecond .card .card-body .big-title {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: var(--black);
+    opacity: .8;
+}
+
+/* third */
+
+
+/* Froth */
+.forthSection .card .card-body .table .img-row,
+.thirdSection .card .card-body .table .flag {
+    max-width: 60px;
+    width: 60px;
+    padding: 12px 8px !important;
+}
+
+
+.forthSection .card .card-body .table .img-wrapper{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.forthSection .card .card-body .table .text,
+.thirdSection .card .card-body .table .text {
+    font-size: 1em;
+    text-align: start;
+    color: var(--black);
+}
+
+
+.forthSection .card .card-body .table tbody td {
+    padding: 12px 8px;
+}
+
+.thirdSection .card .card-body .table tbody td {
+    padding: 2px;
+}
+
+.forthSection .card .card-body .table .td-actions{
+    display: flex;
+}
+
+.forthSection .card .card-body .table .td-actions button {
+    border: 0;
+    background: 0 0;
+    padding: 12px;
+}
+
+.forthSection .card .card-body .table .td-actions button:nth-child(1) svg {
+    fill: var(--blue);
+}
+
+.forthSection .card .card-body .table .td-actions button:nth-child(2) svg {
+    fill: var(--red);
+}
+
+
+/* End */
+
+/* Fifth */
+.mainFifth .card .card-header .card-title {
+    margin-top: 10px;
+    margin-bottom: 0.75rem;
+    font-size: 14px;
+    color: var(--black);
+    opacity: .8;
+}
+
+.mainFifth .card .card-header .card-category {
+    text-transform: capitalize;
+    font-weight: 400;
+    color: var(--gray);
+    font-size: 0.8em;
+    opacity: .7;
+}
+
+.mainFifth .card .card-body .chartdive p {
+    font-size: 1.5em;
+    margin-top: -30px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--black);
+    opacity: .7;
+}
+
+
+
+/* End */
